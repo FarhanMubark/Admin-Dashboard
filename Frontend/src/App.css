@@ -1,0 +1,121 @@
+/* 
+.Footer{
+    margin-top: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    
+}
+
+.Header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.HeaderFooter{
+
+      padding: 0.1px;
+
+} */
+
+/* .active{
+  color: #141dca;
+
+}
+
+.active-icon{
+  color: #141dca !important ;
+  
+}
+
+.sidebar-items{
+  color: gray;
+  font-size: large;
+}
+
+.sidebar-items p {
+  margin-left: 1em;
+  
+  
+}
+
+.sidebar-items:hover p{
+  color:#141dca ;
+}  
+
+.sidebar-items:hover svg{
+  color: #141dca;
+}
+
+.sidebar-items:not(:last-child){
+  margin-bottom: 1.5em;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+}
+main{
+  width: 100vw;
+  padding: 20px;
+  height: 100vh;
+}
+.sidebar{
+  color: #fff;
+  height: 100vh;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 20px 20px;
+  gap: 15px;
+  transition: all 0.9s;
+  font-size: 25px;
+}
+.link:hover{
+  
+  color: rgb(72, 72, 144);
+}
+.active{
+  color: rgb(52, 52, 171);
+}
+.link_text{
+  font-size: 40px;
+  
+}
+.chartRotation{
+  transform: rotate(90deg);
+}
+.hamIcon:hover{
+  color: rgb(52, 52, 171);
+  
+}
+
+.Lockicon:hover{
+  color: rgb(238, 14, 14);
+  transition: 0.6s;
+}
