@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Dash2-Backend.props" />
+</Project>
